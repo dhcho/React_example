@@ -27,6 +27,11 @@ const Home = () => {
             <ListItemText primary="Sign In" />
           </ListItem>
         </Link>
+        <Link href="/signUp">
+          <ListItem button divider >
+            <ListItemText primary="Sign Up" />
+          </ListItem>
+        </Link>
         <Link href="/colorTheme">
           <ListItem button divider >
             <ListItemText primary="Color Theme Tutorial" />
