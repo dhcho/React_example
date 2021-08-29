@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './routes/Home';
+import Dashboard from './routes/Dashboard';
 import SignIn from './routes/SignIn';
 import SignUp from './routes/SignUp';
 import BoxTutorial from './routes/BoxTutorial';
@@ -16,6 +17,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route exact path="/dashboard">
+          <Dashboard />
         </Route>
         <Route exact path="/signIn">
           <SignIn />

@@ -140,9 +140,9 @@ const ColorThemeTutorialContent = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <Button className={classes.contentButtonDark} variant="contained">Button</Button>
-      <Button className={classes.contentButtonMain} variant="contained">Button</Button>
-      <Button className={classes.contentButtonLight} variant="contained">Button</Button>
+      <Button className={classes.contentButtonDark} variant="contained">Button1</Button>
+      <Button className={classes.contentButtonMain} variant="contained">Button2</Button>
+      <Button className={classes.contentButtonLight} variant="contained">Button3</Button>
       <Typography variant="h6" className={classes.contentTitle1}>Typography</Typography>
       <Typography variant="h6" className={classes.contentTitle2}>Typography</Typography>
     </div>

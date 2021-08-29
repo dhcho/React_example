@@ -22,6 +22,11 @@ const Home = () => {
             <ListItemText primary="Home" />
           </ListItem>
         </Link>
+        <Link href="/dashboard">
+          <ListItem button divider >
+            <ListItemText primary="Dashboard" />
+          </ListItem>
+        </Link>
         <Link href="/signIn">
           <ListItem button divider >
             <ListItemText primary="Sign In" />
